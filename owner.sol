@@ -3,7 +3,6 @@
 pragma solidity ^0.8.17;
 
 contract Owner {
-
     // 结构体
     struct Identity {
         address addr;
@@ -31,7 +30,7 @@ contract Owner {
     State private state;
 
     // 下面的都是函数
-    
+
     // 构造函数
     constructor(string memory name) {
         owner.addr = msg.sender;
